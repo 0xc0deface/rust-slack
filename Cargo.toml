@@ -4,12 +4,12 @@ authors = [
   "Eirik Albrigtsen <sszynrae@gmail.com>"
 ]
 description = "A rust crate for sending messages to Slack via webhooks."
-homepage = "https://github.com/clux/rust-slack"
+homepage = "https://github.com/clux/rust-slack3"
 keywords = ["slack", "webhook", "hook", "messaging"]
 license = "MIT/Apache-2.0"
 name = "slack-hook2"
 readme = "README.md"
-repository = "https://github.com/clux/rust-slack"
+repository = "https://github.com/0xc0deface/rust-slack3"
 version = "0.11.0"
 edition = "2018"
 
