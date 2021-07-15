@@ -1,9 +1,9 @@
-# slack-hook2
-[![crates.io](https://img.shields.io/crates/v/slack-hook.svg)](https://crates.io/crates/slack-hook2)
+# slack-hook3
+[![crates.io](https://img.shields.io/crates/v/slack-hook3.svg)](https://crates.io/crates/slack-hook3)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE-MIT)
 [![Apache licensed](https://img.shields.io/badge/license-Apache-blue.svg)](./LICENSE-APACHE)
 
-A rust crate for sending messages to Slack via webhooks. A modernized fork of the `slack-hook` crate. Happy to merge things back in the future.
+A rust crate for sending messages to Slack via webhooks. A modernized fork of the `slack-hook2` crate. Happy to merge things back in the future.
 
 [Slack](https://slack.com/) is a messaging platform for team collaboration.
 
@@ -17,13 +17,13 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-slack-hook2 = "0.11"
+slack-hook3 = "0.11"
 ```
 
 Add the crate to your existing project:
 
 ```rust,no_run
-use slack_hook2::{Slack, PayloadBuilder};
+use slack_hook3::{Slack, PayloadBuilder};
 
 fn main() {
     let slack = Slack::new("https://hooks.slack.com/services/abc/123/45z").unwrap();
